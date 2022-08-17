@@ -72,7 +72,9 @@ JOIN
     produtos pr ON pp.produto_id = pr.id
 WHERE
     c.id = 6
-);
+)
+WHERE
+    nome = 'Georgia';
 
 
 
